@@ -79,7 +79,7 @@ function topicSlide (s,e) {
 
 //Slideshow Functions
 function slideRight(){
-  if (cs == 2) {
+  if (cs == 3) {
     ns = 0;
   } else {
     ns = cs + 1;
@@ -106,7 +106,7 @@ function slideRight(){
 
 function slideLeft(){
   if (ps == 0) {
-    ns = 2;
+    ns = 3;
   } else {
     ns = ps - 1;
   }

@@ -62,7 +62,7 @@ function topicSlide (s,e) {
 
 //Slideshow Functions: To add more slides increase the numbers in the if statments and the declaration of ns in the head of the index
 function slideRight(){
-  if (cs == 2) {
+  if (cs == 3) {
     ns = 0;
   } else {
     ns = cs + 1;
@@ -89,7 +89,7 @@ function slideRight(){
 
 function slideLeft(){
   if (ps == 0) {
-    ns = 2;
+    ns = 3;
   } else {
     ns = ps - 1;
   }
