@@ -32,7 +32,7 @@ div.topicWrap {
 }
 
 div.topic {
-  height: 90vh;
+  height: calc(90vh - 20px);
   width: 80vw;
   max-width: calc(80vh * (16/9));
   overflow-y: scroll;
@@ -44,7 +44,7 @@ div.topic {
 
 div.main {
   position: absolute;
-  top: 50%;
+  top: calc(50% - 20px);
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   display: block;
