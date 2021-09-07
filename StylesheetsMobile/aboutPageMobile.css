@@ -38,13 +38,13 @@
   font-weight: 300;
 }
 
-#abImg > img {
+/* #abImg > img {
   width: 60%;
   border-radius: 50%;
   box-sizing: border-box;
   display: block;
   margin: 0 auto;
-}
+} */
 #abImg p {
   margin: 5px 0;
 }
